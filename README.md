@@ -1,5 +1,5 @@
 <p align="center">
-    <img title="Paystack" height="200" src="https://dashboard.paystack.com/assets/img/logo.svg" width="50%"/>
+    <img title="Paystack" height="200" src="/assets/images/paystack.png" width="50%"/>
 </p>
 
 # MEAK Powered WooCommerce Paystack Payment Gateway
@@ -28,13 +28,13 @@ Signup for an account [here](https://dashboard.paystack.com/#/signup)
 
 - Login to your WordPress Dashboard.
 - Click on "Plugins > Add New" from the left menu.
-- In the search box type **MEAK Paystack Custom Gateway**.
-- Click on **Install Now** on **MEAK Paystack Custom Gateway** to install the plugin on your site.
+- In the search box type **MEAK Paystack Gateway**.
+- Click on **Install Now** on **MEAK Paystack Gateway** to install the plugin on your site.
 - Confirm the installation.
 - Activate the plugin.
 - Click on "WooCommerce > Settings" from the left menu and click the **"Payments"** tab.
-- Click on the **MEAK Paystack Custom Gateway** link from the available Checkout Options
-- Configure your **MEAK Paystack Custom Gateway** settings accordingly.
+- Click on the **MEAK Paystack Gateway** link from the available Checkout Options
+- Configure your **MEAK Paystack Gateway** settings accordingly.
 
 ### Manual Installation
 
@@ -43,8 +43,8 @@ Signup for an account [here](https://dashboard.paystack.com/#/signup)
 - Click on the "Upload" option, then click "Choose File" to select the zip file you downloaded. Click "OK" and "Install Now" to complete the installation.
 - Activate the plugin.
 - Click on "WooCommerce > Settings" from the left menu and click the **"Payments"** tab.
-- Click on the **MEAK Paystack Custom Gateway** link from the available Checkout Options
-- Configure your **MEAK Paystack Custom Gateway** settings accordingly.
+- Click on the **MEAK Paystack Gateway** link from the available Checkout Options
+- Configure your **MEAK Paystack Gateway** settings accordingly.
 
 For FTP manual installation, [check here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
