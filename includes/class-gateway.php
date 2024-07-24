@@ -43,9 +43,9 @@ class Meak_Paystack_Gateway extends WC_Payment_Gateway
         $this->public_key = ($this->testmode == 'yes') ? $this->test_publishable_key : $this->publishable_key;
         $this->secret_key = ($this->testmode == 'yes') ? $this->test_private_key : $this->private_key;
 
-        $this->payment_init_url = ($this->testmode == 'yes') ? 'https://sandbox-api-d.paystackco.com/transaction/initiate' : 'https://api-d.paystackco.com/transaction/initiate';
+        $this->payment_init_url = 'https://api.paystack.co/transaction/initialize';
 
-        $this->payment_verification_url_stub = 'https://sandbox-api-d.paystackco.com/transaction/verify/';
+        $this->payment_verification_url_stub = 'https://api.paystack.co/transaction/verify/:';
 
         if (empty($this->success_url) || $this->success_url == null) {
             $this->success_url = get_site_url();
@@ -56,7 +56,7 @@ class Meak_Paystack_Gateway extends WC_Payment_Gateway
         }
 
         if (empty($this->logo_url) || $this->logo_url == null) {
-            $this->logo_url = 'https://www.raastid.com/assets/images/logoIcon/light_logo.png';
+            $this->logo_url = WC_HTTPS::force_https_url(plugins_url('assets/images/paystack.png', WC_PAYSTACK_MAIN_PLUGIN_FILE));
         }
 
         add_action('woocommerce_update_options_payment_gateways_' . $this->id, array($this, 'process_admin_options'));
@@ -120,7 +120,7 @@ class Meak_Paystack_Gateway extends WC_Payment_Gateway
                 'title' => __('Logo Url'),
                 'description' => __('Your Site Logo URL. If you leave this field empty, it will use Paystack icon.  Example: https://www.example.com/image.png', 'meak-paystack-gateway'),
                 'type' => 'text',
-                'default' => 'http://localhost/wp_takora/wp-content/plugins/paystack-payment-gateway/assets/images/logo.png'
+                'default' => WC_HTTPS::force_https_url(plugins_url('assets/images/paystack.png', WC_PAYSTACK_MAIN_PLUGIN_FILE))
             ),
             'publishable_key' => array(
                 'title' => __('Public Key'),

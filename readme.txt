@@ -11,8 +11,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Take payments on your store using Paystack Payment Processor 
-(GTCO).
+Take payments on your store using Paystack Payment Processor.
 
 == Description ==
 Paystack helps you accept payments from around the world as easy as possible. By integrating the MEAK powered Square payment gateway directly on your WooCommerce website to receive NGN and USD payments quickly and efficiently.
@@ -22,13 +21,10 @@ Paystack enables you to accept payments via multiple methods such as:
  - Bank transfers
  - USSD
  - Payment Link
+ -e.t.c
 
 
-Signup for a free Paystack account [here](https://dashboard.Paystackco.com/sign-up )
-
-Paystack is available in:
- - Nigeria
- - More markets coming soon.
+Signup for a free Paystack account [here](https://dashboard.paystack.com/#/signup )
 
 
 == Configure the plugin ==
@@ -37,12 +33,11 @@ To configure the plugin, go to **WooCommerce > Settings** from the left menu, cl
 
 - Enable/Disable - check the box to enable Paystack Payment Gateway.
 - Mode - check the box to enable Live Mode.
-- Webhook Instruction - please ensure that you copied the url displayed in red into your Paystack dashboard as described.
-- Enter Secret Hash - ensure that secret hash entered is the same with the one on your Paystack dashboard.
-- Paystack Test Public Key - enter your test public key sandbox.Paystackco.com.
-- Paystack Test Secret Key - enter your test secret key sandbox.Paystackco.com.
-- Paystack Live Public Key - enter your live public key dashboard.Paystackco.com.
-- Paystack Live Secret Key - enter your live secret key dashboard.Paystackco.com.
+- Webhook Instruction - please ensure that you copied the url displayed into your Paystack dashboard as described.
+- Paystack Test Public Key.
+- Paystack Test Secret Key.
+- Paystack Live Public Key.
+- Paystack Live Secret Key.
 - Click *Save Changes* to save your changes.
 
 

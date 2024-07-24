@@ -14,7 +14,7 @@ Domain Path: /languages
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
-
+define('WC_PAYSTACK_MAIN_PLUGIN_FILE', __FILE__);
 add_action('plugins_loaded', 'meak_paystack_woocommerce_plugin', 0);
 
 /**

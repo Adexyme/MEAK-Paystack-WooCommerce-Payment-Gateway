@@ -1,5 +1,5 @@
 <p align="center">
-    <img title="Paystack" height="200" src="https://paystackco.com/assets/paystack_logo.svg" width="50%"/>
+    <img title="Paystack" height="200" src="https://dashboard.paystack.com/assets/img/logo.svg" width="50%"/>
 </p>
 
 # MEAK Powered WooCommerce Paystack Payment Gateway
@@ -18,9 +18,9 @@ Accept payments on your store using Paystack.
 
 Paystack helps you accept payments from around the world as easy as possible. By integrating the MEAK powered Square payment gateway directly on your WooCommerce website to receive NGN and USD payments quickly and efficiently.
 
-#### Take Credit card payments easily and directly on your store
+#### Take Credit card payments easily and directly in your store
 
-Signup for an account [here](https://dashboard.paystackco.com)
+Signup for an account [here](https://dashboard.paystack.com/#/signup)
 
 ## Installation
 
@@ -68,12 +68,11 @@ To configure the plugin, go to **WooCommerce > Settings** from the left menu, cl
 
 - **Enable/Disable** - check the box to enable Paystack Payment Gateway.
 - **Mode** - check the box to enable Live Mode.
-- **Webhook Instruction** - please ensure that you copied the url displayed in red into your Paystack dashboard as described.
-- **Enter Secret Hash** - ensure that secret hash entered is the same with the one on your Paystack dashboard.
-- **Paystack Test Public Key** - enter your test public key sandbox.paystackco.com.
-- **Paystack Test Secret Key** - enter your test secret key sandbox.paystackco.com.
-- **Paystack Live Public Key** - enter your live public key dashboard.paystackco.com.
-- **Paystack Live Secret Key** - enter your live secret key dashboard.paystackco.com.
+- **Webhook Instruction** - please ensure that you copied the url displayed into your Paystack dashboard as described.
+- **Paystack Test Public Key**.
+- **Paystack Test Secret Key**.
+- **Paystack Live Public Key**.
+- **Paystack Live Secret Key**.
 - Click **Save Changes** to save your changes.
 <!--
 
